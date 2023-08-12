@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+nav {
+    text-align: center;
+    background-color: rgb(17, 17, 17);
+    height: 80px;
+    width: 100%;
+}
+
+.header {
+    position: fixed;
+}
+
+.enlace {
+    text-align: center;
+    background-color: rgb(236, 221, 0);
+    font-size: 30px;
+    height: 80px;
+    width: 150px;
+    padding: 5px;
+    position: absolute;
+    color: black;
+}
+
+.enlace h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.enlace p {
+    margin: 0;
+    margin-top: -10px;
+    padding: 0;
+    font-size: 20px;
+}
+
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 40px;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 15px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+.checkbtn {
+    font-size: 30px;    
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+/*Hasta aca fue el encabezado*/
+
+.home {
+    margin-top: 80px;
+    height: 10  00px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img {
+    background-image: url(img/telos.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 1000px auto;
+    width: 1000px;
+    height: 700px;  
+    margin-top: 50px;
+}       
+
+.home h1 {
+    font-size: 60px
+}
+
+.home p {
+    text-align: center;
+    background-color: white;
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    width: 220px;
+}
+
+.rayis {
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 400px;
+    height: 3px;
+    background-color: black
+}
+
+/*HASTA ACA SE HISO HOME*/
+
+.about {
+    margin-top: 80px;
+    height: 10  00px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about p {
+    text-align: center;
+    width: 800px;
+}
+
+/*HASTA ACA SE HISO SOBRE NOSOTROS*/
+
+
+.habitaciones {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.habi1 {
+    display: flex;
+}
+
+.sec1 {
+    background-image: url(img/matrimonial.webp);
+    background-size: cover;
+    background-position: center;
+    margin: 30px;
+    height: 600px;
+    width: 600px;
+}
+
+.title-principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    height: 600px;
+    width: 600px;
+    transition: all .20s;
+}
+
+.cajita {
+    background-color: transparent;
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    color: transparent;
+}
+
+.cajita p {
+    padding: 10px;
+}
+
+.title-principal h1 {
+    background-color: #ab967fd3;
+    color: white;
+    padding: 10px;
+}
+
+.title-principal:hover {
+    display: none;
+}
+
+.cajita:hover {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    color: white;
+    background-image: url(img/matrimonial.png);
+    background-position: center;
+    background-size: cover;
+}
+
